@@ -3,7 +3,7 @@ const app = express()
 const port = process.env.PORT || 5500;
 
 app.get('/', function (req, res) {
-    res.send('Hello World from Express')
+    res.send("Slade's first Render app - with port binding")
 })
 
 // app.listen(3000)
